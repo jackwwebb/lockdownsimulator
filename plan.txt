@@ -1,0 +1,9 @@
+"
+expand square - NAH
+change to me - done
+change enemies to random emoji of computer, file, laundry, something else
+- make size 34 and maybe change some out once tested
+change coin to wine - done
+change background and styling and text - DONE
+change map and text to grey (152238) and background to light
+"
