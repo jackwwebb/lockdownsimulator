@@ -365,7 +365,7 @@ var mainState = {
         if(game.device.desktop)
             text = "use arrow keys to drink wine and avoid responsibilities";
         else
-            text = "use arrow keys to drink wine and avoid responsibilities";
+            text = "swipe on the screen to drink wine and avoid responsibilities";
 
         this.labelName = game.add.text(game.width/2, (game.height-200)/4, "Welcome to lockdown", { font: "25px Arial", fill: "#152238" });
         this.labelName.anchor.setTo(0.5);
