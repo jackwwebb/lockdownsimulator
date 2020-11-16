@@ -367,7 +367,7 @@ var mainState = {
         else
             text = "swipe to drink wine and avoid responsibilities";
 
-        this.labelName = game.add.text(game.width/2, (game.height-200)/4, "Happy birthday Joe", { font: "25px Arial", fill: "#152238" });
+        this.labelName = game.add.text(game.width/2, (game.height-200)/4, "Welcome to lockdown", { font: "25px Arial", fill: "#152238" });
         this.labelName.anchor.setTo(0.5);
 
         this.labelTuto = game.add.text(game.width/2, game.height - (game.height-200)/4, text, { font: "17px Arial", fill: "#152238" });
