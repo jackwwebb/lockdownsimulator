@@ -18,8 +18,8 @@ var mainState = {
         // game.load.audio('hit', ['assets/hit.wav', 'assets/hit.mp3']);
         // game.load.audio('music', ['assets/music.mp3', 'assets/music.ogg']);
 
-        game.load.image('square', 'assets/z square.png');
-        game.load.image('coin', 'assets/poo coin.png');
+        game.load.image('square', 'assets/square.png');
+        game.load.image('coin', 'assets/coin.png');
         game.load.image('particle', 'assets/particle.png');
         game.load.image('particle2', 'assets/particle2.png');
         game.load.image('enemy', 'assets/enemy.png');
@@ -362,13 +362,12 @@ var mainState = {
 
     loadLabels: function() {
         var text;
-        // if(game.device.desktop)
-        //     text = "use arrow keys to drink wine and avoid responsibilities";
-        // else
-        //     text = "swipe to drink wine and avoid responsibilities";
-        text = ""
+        if(game.device.desktop)
+            text = "use arrow keys to drink wine and avoid responsibilities";
+        else
+            text = "swipe to drink wine and avoid responsibilities";
 
-        this.labelName = game.add.text(game.width/2, (game.height-200)/4, "Happy birthday Joe", { font: "25px Arial", fill: "#152238" });
+        this.labelName = game.add.text(game.width/2, (game.height-200)/4, "Welcome to lockdown", { font: "25px Arial", fill: "#152238" });
         this.labelName.anchor.setTo(0.5);
 
         this.labelTuto = game.add.text(game.width/2, game.height - (game.height-200)/4, text, { font: "17px Arial", fill: "#152238" });
